@@ -9,8 +9,8 @@ jest.mock('react-router-dom', () => ({
   useNavigate: () => mockNavigate,
 }));
 describe('test header component', () => {
-  it('should display the correct title name', async () => {
+  it('should display the correct title name', () => {
     render(<GroupByGenre allSongsData={MOCK_DATA} distinctGenres={['Pop', 'Country']} />);
-    expect(await screen.findByText('pop')).toBeInTheDocument();
+    expect(screen.getByText('pop')).toBeInTheDocument();
   });
 });
