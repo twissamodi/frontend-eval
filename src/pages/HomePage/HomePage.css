@@ -5,21 +5,12 @@
     left: 50%;
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+    width: 100%;
 }
 .homepage-content{
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 30px;
     margin: 0 0 15px 0;
     color: gray;
-}
-@media screen and (max-width:680px) {
-    .homepage-content{
-        font-size: 20px;
-    }
-}
-@media screen and (max-width:455px) {
-    .homepage-content{
-        font-size: 15px;
-    }
 }

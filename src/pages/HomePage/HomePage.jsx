@@ -13,7 +13,7 @@ function HomePage() {
           <br />
           seems a bit empty here...
         </h2>
-        <Button action="sync" />
+        <Button />
       </section>
 
     </div>
