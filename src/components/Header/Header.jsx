@@ -7,7 +7,11 @@ function Header() {
       <header className="title-header">
         <h1 className="title">
           My
-          <span className="main-title"> Record </span>
+          <span className="main-title">
+            {' '}
+            <b>Record</b>
+            {' '}
+          </span>
           Shelf
         </h1>
       </header>
