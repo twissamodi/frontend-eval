@@ -1,9 +1,4 @@
-.action-button{
-    background-color: #4c63AA;
-    border: none;
-    color: white;
-   
-}
+
 .sync-button{
     border-radius: 35px;
     width:180px;
@@ -13,6 +8,10 @@
     font-size: 30px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: #4c63AA;
+    border: none;
+    color: white;
 }
 @media screen and (max-width:680px) {
     .sync-button{
