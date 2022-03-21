@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+.songs-heading{
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15%;
+}
+.all-songs-header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-top: 30px;
+margin-bottom: 20px;
+}
+.toggle-button{
+    border: none;
+    background-color: transparent;
+    margin-right: 13%;
+    cursor: pointer;
+}
+@media screen and (max-width:440px) {
+    .songs-heading{
+        margin-left: 10px;
+    }
+    .toggle-button{
+        margin-right: 10px;
+    }
+}
