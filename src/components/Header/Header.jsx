@@ -8,9 +8,7 @@ function Header() {
         <h1 className="title">
           My
           <span className="main-title">
-            {' '}
-            <b>Record</b>
-            {' '}
+            Record
           </span>
           Shelf
         </h1>
